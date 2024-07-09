@@ -1,0 +1,111 @@
+@font-face{
+    font-family:'poppins';
+    src: url(../Poppins/Poppins-Regular.ttf) format('truetype'); 
+
+    
+    
+}
+@font-face{
+    font-family:'poppins-light';
+    src: url(../Poppins/Poppins-Light.ttf) format('truetype'); 
+}
+@font-face{
+    font-family:'poppins-madiumltalic';
+    src: url(../Poppins/Poppins-Medium.ttf) format('truetype'); 
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../image/image.png');
+    background-size: cover;
+    backdrop-filter: brightness(0.4);
+    
+
+}
+
+.wrapper{
+    width: 1200px;
+    height: 950px;
+ 
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    width: 455px;
+    height: 637px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+  
+  
+}
+
+.Registration{
+    font-size: 32px;
+    margin-left: 92px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+    color:  rgba(4,32,77,1);
+    font-family: poppins;
+    margin-bottom: 10px;
+    margin-top: 26px;
+
+    
+}
+
+.box {
+    width: 444px;
+    height: 520px;
+    padding-left: 29px;
+
+}
+
+.input {
+    width: 85%;
+    height: 58px;
+    
+    border-radius: 5px;
+    margin-top: 0;
+    margin-bottom: 22px;
+    padding-left: 15px;
+    border: 1px solid  rgba(0,106,129,1 );
+    font-family:'poppins-light';                                                                                                                                                                                                                                                                                  
+
+}
+
+.btn {
+    width: 89%;
+    height: 48px;
+    margin-left: 1px;
+    margin-bottom: 5px;
+    background: rgb(0, 106, 129);
+    background: linear-gradient(90deg, rgba(0, 106, 129, 1) 9%, rgba(4, 32, 77, 1) 100%);
+    color: aliceblue;
+    border: none;
+    margin-top: 9px;
+    border-radius: 5px;
+
+}
+.Login{
+    margin-left: 49px;
+    font-family: 'poppins-madiumltalic';
+    margin-top: 19px;
+}
+.label{
+    color: rgb(0, 137, 152);
+    font-family:'poppins-madiumltalic';
+    font-size: 15px;
+    
+}
+.bold{
+    color: rgb(0, 146, 162);
+}
+.img{
+    margin-left: 90px;
+    margin-bottom: 20px;
+    margin-top: 2px;
+}
